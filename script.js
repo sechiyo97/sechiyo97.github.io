@@ -1,3 +1,6 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js";
+import { getDatabase, ref } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-database.js";
+
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyBQi0p_rGoCnn-OCjL5MAKwdojxePUEbyI",
@@ -13,7 +16,7 @@ const firebaseConfig = {
 initializeApp(firebaseConfig);
 
 // Firebase 데이터베이스 참조
-const database = firebase.database();
+const database = getDatabase();
 
 // 폼 제출 이벤트 리스너
 document.getElementById('rsvp-form').addEventListener('submit', submitForm);

@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js";
-import { getDatabase, ref } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-database.js";
+import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-database.js";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
@@ -40,8 +40,8 @@ function submitForm(e) {
 
 // Firebase 데이터베이스에 데이터 저장
 function saveGuest(name, phone, attending) {
-    const newGuestRef = ref(database, 'guests').push();
-    return newGuestRef.set({
+    const newGuestRef = push(child(ref(database, 'guests')));
+    return set(newGuestRef, {
         name: name,
         phone: phone,
         attending: attending

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Guest RSVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="wedding.jpg" alt="Wedding Image" class="wedding-image">
+        <form id="rsvp-form">
+            <input type="text" id="name" placeholder="이름" required>
+            <input type="text" id="phone" placeholder="전화번호" required>
+            <label for="attending">참석 여부:</label>
+            <select id="attending">
+                <option value="yes">참석</option>
+                <option value="no">불참</option>
+            </select>
+            <button type="submit">제출</button>
+        </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js" type="module"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

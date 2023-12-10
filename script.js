@@ -40,7 +40,7 @@ function submitForm(e) {
 
 // Firebase 데이터베이스에 데이터 저장
 function saveGuest(name, phone, attending) {
-    const newGuestRef = database.ref('guests').push();
+    const newGuestRef = ref(database, 'guests').push();
     return newGuestRef.set({
         name: name,
         phone: phone,

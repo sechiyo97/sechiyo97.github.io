@@ -44590,7 +44590,7 @@ return A.Q($async$yq,r)},
 ah1(a){var s=J.and(a,new A.aec(this))
 return A.a7(s,!0,s.$ti.i("l.E"))},
 I(a){var s,r,q,p=this,o=null,n=A.X(13,0,0,0),m=A.X(0,0,0,0),l=t.p
-m=A.Xx(A.b([A.a3O(o,A.k9(p.y?B.E3:B.mw,o,o),new A.ae5(p),o,o)],l),m,o,o,B.R5)
+m=A.Xx(A.b([A.a3O(o,A.k9(p.y?B.E3:B.mw,o,o),new A.ae5(p),o,o)],l),m,o,o,B.R2)
 l=A.b([],l)
 if(p.y){s=p.w
 r=p.x
@@ -44735,7 +44735,7 @@ s=1
 break
 case 1:return A.P(q,r)}})
 return A.Q($async$kG,r)},
-I(a){var s=null,r=A.Xx(s,s,s,s,B.R2),q=this.d
+I(a){var s=null,r=A.Xx(s,s,s,s,B.R3),q=this.d
 q===$&&A.a()
 return new A.nM(r,s,A.lF(A.b([A.anR(A.anY(new A.aeV(),q,t.wL))],t.p),B.b2,B.aN,B.bx),s)}}
 A.aeW.prototype={
@@ -44781,7 +44781,7 @@ l(){var s=this.e
 s===$&&A.a()
 s.aY(0)
 this.aH()},
-I(a){var s,r,q=this,p=null,o=q.d,n=A.X(13,0,0,0),m=A.Xx(p,B.z,0,A.a3O(p,B.Ea,new A.ahm(q),p,p),B.R3),l=A.cv(0,0,1)
+I(a){var s,r,q=this,p=null,o=q.d,n=A.X(13,0,0,0),m=A.Xx(p,B.z,0,A.a3O(p,B.Ea,new A.ahm(q),p,p),B.R4),l=A.cv(0,0,1)
 o=A.ank(new A.xg(A.aEF(p,p,new A.vt("assets/images/main_screen_image_"+o+".jpeg",p,p)),1/0,1/0,B.zP,new A.cY(o,t.f3)),l,B.Q,new A.ahn())
 l=q.f
 s=l?1:0
@@ -87203,8 +87203,8 @@ B.cB=new A.Nl(1,"down")
 B.R6=new A.jn("\uc9d1\ub4e4\uc774 \uc120\ubb3c \uc704\uc2dc\ub9ac\uc2a4\ud2b8",null,null,null,null,null,null,null,null)
 B.f7=new A.ha(6)
 B.PZ=new A.v(!0,null,null,null,null,null,12,B.f7,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.R4=new A.jn("(\uc0ac\ub78c\ub4e4\uc774 \uc790\uafb8 \ubb50 \uc0ac\uac08\uc9c0 \ubb3c\uc5b4\ubd10\uc11c \ub9cc\ub4e4\uc5c8\uc5b4\uc694)",null,B.PZ,null,null,null,null,null,null)
-B.Gj=A.b(s([B.R6,B.R4]),t.p)
+B.R5=new A.jn("(\uc0ac\ub78c\ub4e4\uc774 \uc790\uafb8 \ubb50 \uc0ac\uac08\uc9c0 \ubb3c\uc5b4\ubd10\uc11c \ub9cc\ub4e4\uc5c8\uc5b4\uc694)",null,B.PZ,null,null,null,null,null,null)
+B.Gj=A.b(s([B.R6,B.R5]),t.p)
 B.Cl=new A.vX(B.aR,B.aN,B.bx,B.b2,null,B.cB,null,B.Gj,null)
 B.lR=new A.vZ(0,"none")
 B.Cm=new A.vZ(1,"waiting")
@@ -89398,9 +89398,9 @@ B.Qj=new A.v(!0,B.k,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.Qb=new A.v(!0,B.k,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"whiteMountainView labelMedium",null,null,null,null)
 B.PR=new A.v(!0,B.k,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.R1=new A.dZ(B.PD,B.QK,B.Qt,B.Os,B.Qm,B.PB,B.QN,B.OU,B.Pi,B.Qf,B.Ok,B.Qv,B.Qj,B.Qb,B.PR)
-B.R2=new A.jn("\uce75\ud14c\uc77c \ubaa9\ub85d",null,null,null,null,null,null,null,null)
-B.R3=new A.jn("Day & Nyong & Q",null,null,null,null,null,null,null,null)
-B.R5=new A.jn("Board Games",null,null,null,null,null,null,null,null)
+B.R2=new A.jn("\ubcf4\ub4dc\uac8c\uc784 \ubaa9\ub85d",null,null,null,null,null,null,null,null)
+B.R3=new A.jn("\uce75\ud14c\uc77c \ubaa9\ub85d",null,null,null,null,null,null,null,null)
+B.R4=new A.jn("Day & Nyong & Q",null,null,null,null,null,null,null,null)
 B.yo=new A.MX(0,"system")
 B.R7=new A.MX(2,"dark")
 B.Jz=new A.i(0.056,0.024)
